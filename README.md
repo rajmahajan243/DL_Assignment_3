@@ -16,22 +16,22 @@ The objective is to create a feedforward neural network structure that includes 
 
 ### Model parameters - 
 # default parameters with attention and without attention
-cell_type = "GRU" 
+cell_type = "GRU" | "GRU"
 
-bidirectional = True
+bidirectional = True | False
 
-enc_layers = 1
+enc_layers = 1 | 5
 
-dec_layers = 1
+dec_layers = 1 | 5
 
-batch_size = 256
+batch_size = 256 | 256
 
-embedding_size = 384
+embedding_size = 384 | 256
 
-hidden_size = 384
+hidden_size = 384 | 512
+ 
+enc_dropout = 0 | 0
 
-enc_dropout = 0
+dec_dropout = 0 | 0
 
-dec_dropout = 0
-
-attention = True
+attention = True | False
