@@ -60,6 +60,36 @@ Computes the accuracy of predicted words with respect to ground truth (If whole 
 
 #### Seq2Seq()
 ```
-Seq2Seq(nn.Module)
+class Seq2Seq(nn.Module)
 ```
 Creates seq2seq model with given configuration.
+
+#### Encoder()
+```
+class Encoder(nn.Module)
+```
+Calls the encoder with given configuration
+
+#### Decoder()
+```
+class Decoder(nn.Module)
+```
+Calls the decoder without attention with given configuration
+
+#### Atten_decoder()
+```
+class Atten_decoder(nn.Module)
+```
+Calls the decoder with attention and with given configuration
+
+#### matrix_to_words()
+```
+matrix_to_words(model, english_matrix, marathi_matrix, batch_size, data_type)
+```
+Converts predicted output vector to actual readable words.
+
+#### word2vec()
+```
+word2vec(word, lang)
+```
+Takes actual word and type of language as input and converts it into matrix of words.
