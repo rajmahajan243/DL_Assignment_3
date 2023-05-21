@@ -15,14 +15,23 @@ The objective is to create a feedforward neural network structure that includes 
 ### Report link -  https://api.wandb.ai/links/rajmahajan24/qrl098dt
 
 ### Model parameters - 
+# default parameters with attention and without attention
+cell_type = "GRU" 
 
-cell_type = "GRU"
 bidirectional = True
+
 enc_layers = 1
+
 dec_layers = 1
+
 batch_size = 256
+
 embedding_size = 384
+
 hidden_size = 384
+
 enc_dropout = 0
+
 dec_dropout = 0
+
 attention = True
