@@ -10,9 +10,9 @@ Roll Number -  CS22M067
 
 ### Objective -
 
-The objective is to create a feedforward neural network structure that includes backpropagation and allows for the selection of available optimizers, activation functions, and loss functions. The model will be tested on the Fashion-MNIST dataset.
+The objective is to create a seq2seq neural network structure that includes encoder - decoder model  and allows user to train model with diffrent parmameters . The model works on aksharantar dataset. The results reported as best are based on Marathi dataset from aksharantar dataset.
 
-### Report link -  https://api.wandb.ai/links/rajmahajan24/qrl098dt
+### Report link -  [https://api.wandb.ai/links/rajmahajan24/qrl098dt](https://wandb.ai/rajmahajan24/DL_Assignment_3/reports/CS6910-Assignment-3--Vmlldzo0NDAxNDA2?accessToken=kc68u6u9px86kc1usll8yj0en0dhkjg0jzvonoxa4ludvnhtje1ojl4zy12tnc7z)
 
 ### Model parameters - 
 # default parameters with attention and without attention
